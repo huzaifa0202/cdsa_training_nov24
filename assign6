@@ -1,0 +1,13 @@
+// Check if a person is eligible to vote on age basis
+
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("enter the age of the person:");
+    scanf("%d",&age);
+    if(age>=18)
+    {
+        printf("person is eligible to vote");
+    }
+}
